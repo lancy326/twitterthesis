@@ -1,0 +1,123 @@
+ls()
+install.packages('twitteR')
+install.packages('ROAuth')
+library('twitteR')
+library('ROAuth')
+consumerSecret <- "WwGNmaapoLh6EGuASqLDPyA7lbMwNJbym2vaG4mzBHPuI67wHv"
+reqURL <- "https://api.twitter.com/oauth/request_token"
+accessURL <- "https://api.twitter.com/oauth/access_token"
+authURL <- "https://api.twitter.com/oauth/authorize"
+consumerKey <- "0sfYnxBvazORTU4rBtFRAJR0o"
+consumerSecret <- "WwGNmaapoLh6EGuASqLDPyA7lbMwNJbym2vaG4mzBHPuI67wHv"
+twitCred <- OAuthFactory$new(consumerKey=consumerKey,
+consumerSecret=consumerSecret,
+requestURL=reqURL,
+accessURL=accessURL,
+authURL=authURL)
+twitCred$handshake()
+registerTwitterOAuth(twitCred)
+install.packages('devtools')
+install.packages('httr')
+install.packages("httr")
+ArduinoDaySA <- searchTwitter("ArduinoDaySA", n=3, lang="en")
+#Install packages
+install.packages("twitteR")
+install.packages("RCurl")
+install.packages(c("devtools", "rjson", "bit64", "httr"))
+install.packages("RCurl")
+install.packages("RCurl")
+install.packages("RCurl")
+install.packages("RCurl")
+install.packages("RCurl")
+install.packages("RCurl")
+library('twitteR')
+library('ROAuth')
+reqURL <- "https://api.twitter.com/oauth/request_token"
+accessURL <- "https://api.twitter.com/oauth/access_token"
+authURL <- "https://api.twitter.com/oauth/authorize"
+consumerKey <- "0sfYnxBvazORTU4rBtFRAJR0o"
+consumerSecret <- "WwGNmaapoLh6EGuASqLDPyA7lbMwNJbym2vaG4mzBHPuI67wHv"
+twitCred <- OAuthFactory$new(consumerKey=consumerKey,
+consumerSecret=consumerSecret,
+requestURL=reqURL,
+accessURL=accessURL,
+authURL=authURL)
+twitCred$handshake()
+install_github("httr")
+install_github("twitteR", username="geoffjentry")
+library('devtools')
+install_github("httr")
+install_github("twitteR", username="geoffjentry")
+install_github("httr")
+install_github("httr/geoffjentry")
+setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
+setup_twitter_oauth(consumerKey, consumerSecret, access_token, access_secret)
+access_token <- "791663589723672576-AjVe89c5glr7tAk8Hr1iBih3HKet8R7"
+access_secret <- "aCOfAQY3do7gQKyhBpVRj8rJRtI68HrhPv6GcVVPIgPrW"
+setup_twitter_oauth(consumerKey, consumerSecret, access_token, access_secret)
+ArduinoDaySA <- searchTwitter("ArduinoDaySA", n=3, lang="en")
+ArduinoDaySA
+save.image("~/Wenyi/workspace_thesis.Rworkspace.RData")
+ls()
+search.string <- "#GalaxyNote7"
+tweets <- searchTwitter(search.string, n=no.of.tweets, cainfo="cacert.pem", lang="en")
+tweets <- searchTwitter(search.string, n=3, cainfo="cacert.pem", lang="en")
+tweets
+save(twitCred, file="twitter authentication.Rdata")
+registerTwitterOAuth(twitCred)
+setup_twitter_oauth(twitCred)
+tweets <- searchTwitter(search.string, n=3, lang="en")
+tweets
+tweets <- searchTwitter(search.string, n=1000, lang="en")
+head(tweets)
+dim(tweets)
+length(tweets)
+tweets <- searchTwitter(search.string, n=10000, lang="en")
+length(tweets)
+head(tweets)
+tail(tweets)
+wrtieClipboard(tweets)
+writeClipboard(tweets)
+tweet
+tweets
+?searchTwitter
+tweets <- searchTwitter(search.string, n=10000, lang="en", since = '2016-07-01')
+tail(tweets)
+head(tweets)
+tweets_max <- searchTwitter(search.string, n=100000, lang="en", since = '2016-07-01')
+save.image("~/Wenyi/workspace_thesis.Rworkspace.RData")
+savehistory("~/Wenyi/allcommands.Rhistory")
+
+ls()
+library('twitteR')
+install.packages('twitteR')
+install.packages('ROAuth')
+library('ROAuth')
+library('twitteR')
+library('ROAuth')
+reqURL <- "https://api.twitter.com/oauth/request_token"
+accessURL <- "https://api.twitter.com/oauth/access_token"
+authURL <- "https://api.twitter.com/oauth/authorize"
+consumerKey <- "0sfYnxBvazORTU4rBtFRAJR0o"
+consumerSecret <- "WwGNmaapoLh6EGuASqLDPyA7lbMwNJbym2vaG4mzBHPuI67wHv"
+twitCred <- OAuthFactory$new(consumerKey=consumerKey,
+consumerSecret=consumerSecret,
+requestURL=reqURL,
+accessURL=accessURL,
+authURL=authURL)
+search.string <- "#GalaxyNote7"
+tweets <- searchTwitter(search.string, n=10, lang="en")
+twitCred$handshake()
+tweets <- searchTwitter(search.string, n=10, lang="en")
+install_github("httr")
+install_github("twitteR", username="geoffjentry")
+library('devtools')
+install_github("httr")
+install_github("twitteR", username="geoffjentry")
+install_github("httr")
+install_github("httr/geoffjentry")
+setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
+setup_twitter_oauth(consumerKey, consumerSecret, access_token, access_secret)
+access_token <- "791663589723672576-AjVe89c5glr7tAk8Hr1iBih3HKet8R7"
+access_secret <- "aCOfAQY3do7gQKyhBpVRj8rJRtI68HrhPv6GcVVPIgPrW"
+setup_twitter_oauth(consumerKey, consumerSecret, access_token, access_secret)
